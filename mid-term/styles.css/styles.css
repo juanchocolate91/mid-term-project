@@ -1,0 +1,167 @@
+/*border: 5px;
+border-color: black;
+object-fit: contain;*/
+
+body {
+  font-size: 22px;
+  font-family: "Roboto", sans-serif;
+  background-color: #f2f4fc;
+  justify-content: center;
+  border-radius: 0px;
+  
+}
+.logoCircle {
+  position: absolute;
+  width: 60.53px;
+  height: 18.46px;
+  left: 170.64px;
+  top: 86.91px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 70px;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
+.navOptions ul {
+  display: flex;
+  list-style: none;
+  width: 250px;
+  text-align: center;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+li a {
+  padding: 16px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.logoCircle {
+}
+
+button {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*here begins the hero style section*/
+.hero-sec {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.hero-cont {
+  display: flex;
+  justify-content: center;
+}
+
+.text-hero-cont {
+  height: 422px;
+}
+.buttons {
+}
+.button-hero-cont {
+  display: flex;
+}
+
+#transparent-button {
+  border: none;
+  color: gray;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.hero-img-cont img {
+  object-fit: cover;
+  height: 650px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  position: relative;
+  border: 5px;
+  border-color: black;
+}
+
+.overlay .credit-card {
+  position: absolute;
+  display: flex;
+  left: 42%;
+  top: 8%;
+  width: 160px;
+  height: 163px;
+
+}
+.overlay .credit-card img {
+  width: 400px;
+  object-fit: contain;
+}
+
+.overlay .yellow-hand {
+  position: absolute;
+  display: flex;
+  bottom: -20%;
+  right: 30%;
+  width: 160px;
+  height: 163px;
+}
+
+.overlay .yellow-hand img {
+  width: 385px;
+  object-fit: contain;
+  bottom: 265%;
+  
+}
+
+
+.cont-logos {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+/*AQUI COMIENZA LA SECCION DE PROYECTOS*/
+
+.projects-section {
+  width: 800px;
+  height: auto;
+  top: 600px ;
+  }
+.container {
+ width: 700px;
+ height: auto;
+ left: 300px; ;
+  
+
+}
+
+.projects {
+ width: 500px;
+ height: auto;
+ top: 250px;
+ left: 300px;
+}
+.projects img {
+
+}
